@@ -20,6 +20,7 @@ public class SecurityConfigu {
 
 	public CustomUserDetailServ userDetailsService;
 	
+	// autowired 
 	public SecurityConfigu(CustomUserDetailServ userDetailsService)
 	{
 		 this.userDetailsService=userDetailsService;
